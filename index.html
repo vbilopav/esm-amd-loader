@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title></title>
+    </head>
+    <body>
+
+    Polymer AMD test
+    <script src="./src/esm-amd-loader-mod.js"></script>
+
+    <script>
+    define(['./foo.js'], function(foo) {
+        console.log('imported', foo, 'from foo.js')
+    });
+    </script> 
+
+</body>
+</html>
